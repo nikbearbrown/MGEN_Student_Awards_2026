@@ -1,0 +1,28 @@
+{
+  "name": "remotion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion bundle",
+    "render": "npx remotion render"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "4.0.448",
+    "@remotion/shapes": "4.0.448",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.448",
+    "typescript": "5.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7"
+  }
+}
